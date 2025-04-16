@@ -1,0 +1,28 @@
+.Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    border-radius: 12px;
+    gap: 80px;
+    position: relative;
+  }
+  
+  .textSlide h1 {
+    font-size: 60px;
+    font-family: "Playwrite BE VLG", cursive;
+    color: white;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  .imageSlide img {
+    width: 100%;
+    max-width: 370px;
+    object-fit: contain;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+  }
