@@ -1,6 +1,13 @@
 import { useState, useEffect } from 'react';
+import affterimg from '../../img/Slider/offer-img.png';
 import styles from './Home.module.css';
 import Sobre from './Sobre';
+import Chocolate from './Chocolate';
+import Depoimentos from './Depoimento';
+import Contacto from './Contacto';
+import Button from '../Global/Button';
+
+
 import slide1 from '../../img/Slider/slider-img.png';
 import slide2 from '../../img/Slider/slider-img.png';
 import slide3 from '../../img/Slider/slider-img.png';
@@ -54,6 +61,27 @@ function Home() {
 
             <section>
                 <Sobre/>
+            </section>
+
+            <section>
+                <Chocolate/>
+            </section>
+
+            <section className={styles.compras}>
+                 <div>
+                    <h1>Ofetas em Chocolates</h1>
+                    <p>Ganha 5% de desconto em qualquer item de Chocolate</p>
+                    <Button/>
+                 </div>
+                 <img src={affterimg} alt="affter" />
+            </section>
+
+            <section>
+                <Depoimentos/>
+            </section>
+
+            <section>
+                <Contacto/>
             </section>
 
         </>

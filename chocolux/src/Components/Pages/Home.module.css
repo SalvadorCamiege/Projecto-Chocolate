@@ -26,3 +26,33 @@
     margin-top: 20px;
     transition: all 0.5s ease;
   }
+
+  /*compras de 5% de desconto*/
+  .compras {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 2px solid #5f3317;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .compras h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Playwrite BE VLG", cursive;
+    color: #5f3317;
+  }
+  
+  .compras p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+   
+  .compras img {
+    width: 50%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 8px;
+  }  

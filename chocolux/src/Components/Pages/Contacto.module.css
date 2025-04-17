@@ -1,0 +1,27 @@
+.contactoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    flex-wrap: wrap; /* Responsivo */
+    
+  }
+  
+  .formBox {
+    flex: 1;
+    min-width: 320px;
+    max-width: 600px;
+  }
+  
+  .imageBox {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .imageBox img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }  

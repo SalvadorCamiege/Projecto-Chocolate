@@ -36,9 +36,9 @@ function Rodape() {
                         <ul>
                             <li><a href="/">Home</a></li>
                             <li><a href="/Sobre">Sobre</a></li>
-                            <li><a href="/Contatos">Chocolates</a></li>
-                            <li><a href="/Contatos">Depoimentos</a></li>
-                            <li><a href="/Contatos">Contatos-nos</a></li>
+                            <li><a href="/Chocolate">Chocolates</a></li>
+                            <li><a href="/Depoimento">Depoimentos</a></li>
+                            <li><a href="/Contacto">Contatos-nos</a></li>
                         </ul>
                     </div>
 
