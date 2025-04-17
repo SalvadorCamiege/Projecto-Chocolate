@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from './Home.module.css';
+import Sobre from './Sobre';
 import slide1 from '../../img/Slider/slider-img.png';
 import slide2 from '../../img/Slider/slider-img.png';
 import slide3 from '../../img/Slider/slider-img.png';
@@ -40,15 +41,22 @@ function Home() {
     }, []);
 
     return (
-        <section className={styles.Home}>
-           <div className={styles.textSlide}>
-               <h1>{slides[currentSlide].title}</h1>
-           </div>
+        <>
+            <section className={styles.Home}>
+                <div className={styles.textSlide}>
+                    <h1>{slides[currentSlide].title}</h1>
+                </div>
 
-           <div className={styles.imageSlide}>
-              <img src={slides[currentSlide].image} alt="slide" />
-           </div>
-        </section>
+                <div className={styles.imageSlide}>
+                    <img src={slides[currentSlide].image} alt="slide" />
+                </div>
+            </section>
+
+            <section>
+                <Sobre/>
+            </section>
+
+        </>
    
     );
  }

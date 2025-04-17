@@ -1,0 +1,65 @@
+.Rodape {
+    background-color: #000;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .leftContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20rem; /* Espaço entre o input e os ícones das redes sociais */
+  }
+  
+  .socialList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem; /* Espaço entre os ícones */
+  }
+  
+  .socialList li {
+    margin: 0;
+  }
+  
+  .socialList a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .socialList a:hover {
+    color: #a15b2c; /* cor castanha ao passar o mouse */
+    
+  }
+  
+  .navBar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  
+  .navBar li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .navBar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+  }
+  
+  .navBar a:hover {
+    color: #a15b2c; /* cor castanha ao passar o mouse */
+    transition: 2s;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  } 
+
+  h1{
+    font-family: "Playwrite BE VLG", cursive;
+  }
