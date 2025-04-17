@@ -1,65 +1,114 @@
 .Rodape {
-    background-color: #000;
-    color: white;
-    padding: 2rem;
-  }
-  
-  .leftContent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20rem; /* Espaço entre o input e os ícones das redes sociais */
-  }
-  
-  .socialList {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 1rem; /* Espaço entre os ícones */
-  }
-  
-  .socialList li {
-    margin: 0;
-  }
-  
-  .socialList a {
-    color: white;
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
-  }
-  
-  .socialList a:hover {
-    color: #a15b2c; /* cor castanha ao passar o mouse */
-    
-  }
-  
-  .navBar ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 2rem;
-  }
-  
-  .navBar li {
-    margin-bottom: 0.8rem;
-  }
-  
-  .navBar a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    transition: color 0.3s ease;
-  }
-  
-  .navBar a:hover {
-    color: #a15b2c; /* cor castanha ao passar o mouse */
-    transition: 2s;
-  }
-  
-  .icon {
-    font-size: 1.5rem;
-  } 
+    background-color: black;
+    color: #fff;
+    padding: 40px;
+    margin-top: 80px;
+}
 
-  h1{
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Input + Redes Sociais */
+.inputSocialContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.socialList {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.icon {
+    font-size: 50px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #5a2d0c;
+    transition: 2s;
+}
+
+/* Menu + Colunas lado a lado */
+.menuAndColumns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.h1{
     font-family: "Playwrite BE VLG", cursive;
-  }
+    font-size: 30px;
+}
+
+.navBar {
+    min-width: 150px;
+}
+
+.navBar h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.navBar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navBar ul li {
+    margin-bottom: 8px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navBar ul li a:hover {
+    color: #ccc;
+}
+
+/* Colunas */
+.columnsContainer {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.column {
+   min-width: 150px;
+}
+
+.column h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+   margin-bottom: 8px;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.column ul li a:hover {
+    color: #aaa;
+}
